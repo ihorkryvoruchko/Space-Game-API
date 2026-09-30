@@ -16,3 +16,7 @@ spring:
   flyway:
     enabled: true
     locations: classpath:db/migration
+
+  jwt:
+    secret: "mySuperSecretKeyForSpaceGameJwtTokenGeneration2026SecureKeyWithEnoughLengthForHS512AndSafety"
+    expiration-ms: 86400000
